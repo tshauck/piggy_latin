@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Trent Hauck"]
   s.date = %q{2011-05-11}
-  s.description = %q{See summary}
+  s.description = %q{Take a phrase and turn it into pig latin}
   s.email = %q{trent.hauck@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/piggy_latin.rb",
+    "piggy_latin.gemspec",
     "test/helper.rb",
     "test/test_piggy_latin.rb"
   ]

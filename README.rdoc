@@ -1,8 +1,22 @@
 = piggy_latin
 
-Description goes here.
+Take a paragraph of group of sentences and turn them it into a group of sentences translated into pig latin.
+Currently does not work with anything but simple sentences ended in periods.
 
-== Contributing to piggy_latin
+= Usage
+pig_latin = PigLatin::Input({:dash => true})
+pig_latin.translate("Hi.")
+ => I-hay.
+
+
+TODO:
+A) Document
+1) Allow sentences to end in questions marks or exclaimation marks
+2) Allow appostrophes
+3) Check for "Mr., Mrs." and other abbreviations that will mess up the delimination.
+
+
+= Contributing to piggy_latin
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it

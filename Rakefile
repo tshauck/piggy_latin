@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/tshauck/piggy_latin"
   gem.license = "MIT"
   gem.summary = %Q{Take a phrase and turn it into pig latin}
-  gem.description = %Q{See summary}
+  gem.description = %Q{Take a phrase and turn it into pig latin}
   gem.email = "trent.hauck@gmail.com"
   gem.authors = ["Trent Hauck"]
   # dependencies defined in Gemfile
